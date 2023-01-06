@@ -6,6 +6,11 @@ Please type in the math operation you would like to complete:
 / for division
 
 ''')
+#Fonte
+#https://www.digitalocean.com/community/tutorials/how-to-make-a-calculator-program-in-python-3
+
+#PRÓXIMOS PASSOS: DEFINIR AS FUNÇÕES PRA CALCULADORA E FUNÇÃO UTILIZAR DE NOVO.
+
 
 if operation == '+':
     num1 = int(input('Enter your first number: '))
@@ -33,4 +38,4 @@ elif operation == '/':
     #print(num1 / num2)
 
 else:
-    print('You have not typed a valid operator, please run the program again.')
+    print('Você digitou um operador incorreto; por favor, tente outra vez.\n\n')
