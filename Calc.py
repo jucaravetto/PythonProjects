@@ -7,12 +7,14 @@ num2 = int(input('Entre com seu segundo número: '))
 #to usando o seguinte site pra aprender:
 #https://www.digitalocean.com/community/tutorials/how-to-make-a-calculator-program-in-python-3
 
+#Este site tem uma versão de calculadoras com funções
+#https://www.programiz.com/python-programming/examples/calculator
+
 #Primeiro jeito que fiz, agora testar nova formatação
 #print("\nA soma é:")   
 #print(num1+num2,"\n")
 
 # Addition
-#print("Testar nova exibição aqui")
 print('{} + {} = '.format(num1, num2),num1 + num2) #exibe o resultado logo depois de calcular a soma
 #print(num1 + num2)
 
